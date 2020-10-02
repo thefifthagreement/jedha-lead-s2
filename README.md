@@ -23,3 +23,13 @@ I split the dataset in 3 parts, a train and a test set for modeling purpose, the
 5. The stream generates SNS
 6. SNS triggers Lambdas which uses the model endpoint to make predictions on the fly
 7. The results are sent through SNS
+
+## Conclusion
+
+This final project of the Lead Data bootcamp is to considered as an assesment of our skills in the AWS environment.
+
+The timing was short (about 24 hours) and was indeed a limit. There are multiple ways of improvement for this project but I'll give some here:
+* deal with the imbalanced classes (under/over sampling, SMOTE, ADASYN)
+* try other models (Random Cut Forest, Clustering, Deep Learing)
+* use the AWS Fraud Detector service
+* optimize the Messaging - Lambda architecture to be cost-effective
